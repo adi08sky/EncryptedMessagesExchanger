@@ -22,4 +22,4 @@ Założenia:
 10. W aplikacji B do kontrolera wystawiającego endpoint, został wstrzyknięty (dependency injection) obiekt posiadający metodę która przyjmuje 2 parametry, wiadomość oraz klucz, a zwracająca odszyfrowaną wiadomość.
 11. Jednocześnie może działać N aplikacji typu A.
 
- 
+Należy uzupełnić connectionStringa w BackendWebApi/Entities/MessagesDbContext.cs oraz BackendConsoleApp/Program.cs
